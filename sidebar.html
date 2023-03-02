@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yosí Blog</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+       <header id="header" class="shadow bg-light">
+           <nav class="container navbar">
+               <a href="/index.html" class="nav-brand text-dark">
+                    Yosí
+                </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link">Pages</a>
+                        <a href="#" class="nav-link">Categories</a>
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Contact</a>
+                    </ul>
+                </div>
+
+                  <!-- collapse on toggle button click -->
+                  <div class="collapse">
+                      <ul class="navbar-nav">
+                            <div class="search-box">
+                                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                            </div>
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+                      </ul>
+                  </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+            <!-- Post Content -->
+                <section class="container">
+                    <div class="layout-2 row">
+                        <div class="col-8">
+                            <article id="post">
+                                <!-- article heading -->
+                                <div class="headings text-center">
+                                    <div class="category">
+                                        <a href="#" class="nav-link">Northeastern Cuisine</a>
+                                    </div>
+        
+                                    <div class="title">
+                                        <h2 class="text-title text-dark display-1">Exploring the Flavors of Moqueca: A Traditional Brazilian Seafood Stew</h2>
+                                    </div>
+        
+                                    <div class="meta">
+                                        <a href="#" class="link display-2 text-secondary px-1">
+                                            <i class="fas fa-user text-primary"></i> Clara Stephens
+                                        </a>
+                                        <a href="#" class="link display-2 text-secondary px-1">
+                                            <i class="fas fa-clock text-primary"></i>  Clock Wed 02, 2023
+                                        </a>
+                                        <a href="#" class="link display-2 text-secondary px-1">
+                                            <i class="fas fa-comments text-primary"></i> 12
+                                        </a>
+                                    </div>
+        
+                                </div>
+        
+                                <!-- thumbnail  -->
+                                <div class="thumbnail mt-3">
+                                    <img src="./assets/img-moc.jpg" class="thumbnail" alt="">
+                                </div>
+        
+                                <!-- content -->
+                                <div class="content text-dark display-2 secondary-title mt-3">
+                                    <p>Brazilian cuisine is known for its diversity and bold flavors, and one dish that stands out 
+                                        among the rest is moqueca. This traditional dish from the state of Bahia in northeastern 
+                                        Brazil is a flavorful seafood stew that is sure to tantalize your taste buds. Moqueca is a must-
+                                        try for anyone who loves seafood or is looking to explore the vibrant culinary landscape of Brazil.
+                                    </p>
+                                    <p>Moqueca is typically made with a combination of fish, shrimp, or crab, along with vegetables
+                                       such as tomatoes, onions, and bell peppers. The dish is seasoned with a blend of spices 
+                                       including garlic, cumin, and coriander, and finished with the rich and creamy flavor of 
+                                       coconut milk. The stew is simmered slowly over low heat, allowing the flavors to meld 
+                                       together and create a deeply satisfying and comforting meal.
+                                    </p>
+                                    <p>Moqueca is often served with rice and farofa, a Brazilian side dish made with toasted manioc
+                                       flour. The dish is also commonly accompanied by a simple salad of fresh greens and sliced 
+                                       tomatoes. Whether you're looking for a hearty meal to warm you up on a chilly evening or a
+                                       taste of Brazil's rich culinary history, moqueca is a dish that is not to be missed.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- post footer -->
+                            <div class="post-footer mb-3">
+                                <div class="post-tags d-flex flex-wrap justify-content-center">
+                                    <a href="#" class="nav-link btn bg-light">Travel</a>
+                                    <a href="#" class="nav-link btn bg-light">Food</a>
+                                    <a href="#" class="nav-link btn bg-light">Lifestyle</a>
+                                    <a href="#" class="nav-link btn bg-light">Techonogy</a>
+                                    <a href="#" class="nav-link btn bg-light">Fashion</a>
+                                </div>
+        
+                                <div class="post-author text-center">
+                                    <div class="author-avatar">
+                                        <img src="./assets/img-chf.jpg" class="rounded" alt="">
+                                    </div>
+        
+                                    <div class="author-info py-2">
+                                        <h3 class="text-dark">Clara Stephens</h3>
+        
+                                        <p class="text-secondary secondary-title">
+                                            A 10-year international chef with a passion for Brazilian and Argentinean cuisine. With a wealth
+                                            of experience and knowledge in the culinary arts, they bring a unique perspective to the table and
+                                            inspire readers to explore the flavors of South America.
+                                        </p>
+        
+                                        <div class="post-tags d-flex flex-wrap justify-content-center">
+                                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                                            <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+                                        </div>
+                                    </div>
+        
+                                </div>
+        
+                                <!-- post related -->
+                                <div class="post-realted py-2">
+                                    <div class="row justify-content-center">
+                                        <div class="prev">
+                                            <div class="py-2">
+                                                <a href="#" class="display-2 text-dark">
+                                                    <i class="fas fa-chevron-left"></i> 
+                                                    Previous Post
+                                                </a>
+                                            </div>
+                                            <article class="article text-center">
+                                                <div class="d-flex">
+                                                    <a href="#">
+                                                        <img src="./assets/img-cf.jpg" class="object-fit" alt="">
+                                                    </a>
+                                                    <div class="cart-body px-1">
+                                                        <div class="category">
+                                                            <a href="#" class="link text-primary text-secondary">Food</a>
+                                                        </div>
+                                                        <a href="#" class="text-title display-1 text-dark">
+                                                            Spotless and Safe: Navigating the Kitchen with 
+                                                            Cleanliness and Security
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="next text-right">
+                                            <div class="py-2">
+                                                <a href="#" class="display-2 text-dark">
+                                                    Next Post 
+                                                    <i class="fas fa-chevron-right"></i> 
+                                                </a>
+                                            </div>
+                                            <article class="article text-center">
+                                                <div class="d-flex">
+                                                    <a href="#">
+                                                        <img src="./assets/img-pm.jpg" class="object-fit" alt="">
+                                                    </a>
+                                                    <div class="cart-body px-1">
+                                                        <div class="category">
+                                                            <a href="#" class="link text-primary text-secondary">Food</a>
+                                                        </div>
+                                                        <a href="#" class="text-title display-1 text-dark">
+                                                            World-Class Cuisine: Exploring Award-Winning International
+                                                            Chefs and Their Inspirations
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- comments -->
+                                <div class="post-comments py-2">
+                                    <h3 class="text-center display-1 secondary-title py-2">5 Comments</h3>
+        
+                                    <div class="comment-details">
+                                        <div class="comment-item py-2">
+                                            <div class="d-flex">
+                                                <div class="avatar px-2">
+                                                    <img src="./assets/img-mulher1.jpeg" class="rounded" alt="">
+                                                </div>
+                                                <div class="comment-content">
+                                                    <h5 class="display-2 m-0">Luana Kelly</h5>
+                                                    <p class="title-secondary text-dark">
+                                                        I'm so glad I stumbled upon this blog. It's given me a newfound appreciation for Brazilian cuisine and has inspired me to try cooking some dishes myself.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <!-- comment reply -->
+                                            <div class="reply py-2">
+                                                <div class="d-flex">
+                                                    <div class="avatar px-2">
+                                                        <img src="./assets/img-homem.png" class="rounded" alt="">
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        <h5 class="display-2 m-0">Carlos Silva</h5>
+                                                        <p class="title-secondary text-dark">
+                                                            I love how the blog incorporates stunning visuals and mouth-watering pictures of the food. It really makes me want to try everything on the menu!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="comment-item py-2">
+                                            <div class="d-flex">
+                                                <div class="avatar px-2">
+                                                    <img src="./assets/img-mulher2.jpg" class="rounded" alt="">
+                                                </div>
+                                                <div class="comment-content">
+                                                    <h5 class="display-2 m-0">Shirley Castanho</h5>
+                                                    <p class="title-secondary text-dark">
+                                                        I appreciate how the blog explores the regional differences in Brazilian cuisine and how each dish reflects the local traditions and flavors
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                    
+                                    <!-- comment form -->
+                                    <div class="comment-form">
+        
+                                        <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+        
+                                        <div class="d-flex justify-content-between flex-wrap">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                            <input type="text" class="form-control" placeholder="Website">
+                                        </div>
+        
+                                        <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                                        <div class="text-center">
+                                            <button class="btn btn-primary display-2 text-light mt-2">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                            <!-- .post footer -->
+                        </div>
+                        <div class="col-4">
+                            <aside id="sidebar" class="px-1">
+
+                                <!-- categories -->
+                                <section class="categories">
+                                    <h2 class="text-center text-dark">Categories</h2>
+
+                                    <a href="#" class="d-flex justify-content-between text-dark">
+                                        <span>North</span>
+                                        <span>5</span>
+                                    </a>
+                                    <a href="#" class="d-flex justify-content-between text-dark">
+                                        <span>Northeast</span>
+                                        <span>8</span>
+                                    </a>
+                                    <a href="#" class="d-flex justify-content-between text-dark">
+                                        <span>Central</span>
+                                        <span>3</span>
+                                    </a>
+                                    <a href="#" class="d-flex justify-content-between text-dark">
+                                        <span>Southeast </span>
+                                        <span>2</span>
+                                    </a>
+                                </section>
+
+                                <!-- Trending post -->
+                                <section class="trending-post mt-3">
+
+                                    <h2 class="text-center text-dark py-2">Trending Post</h2>
+
+                                    <!-- post-items -->
+                                    <div class="post-item py-1">
+                                        <article class="article">
+                                            <div class="d-flex">
+                                                <a href="#">
+                                                    <img src="./assets/img-br.jpg" class="rounded px-1" alt="">
+                                                </a>
+                                                <div class="cart-body">
+                                                    <div class="trending-category">
+                                                        <a href="#" class="link text-primary">
+                                                            Food
+                                                        </a>
+                                                    </div>
+                                                    <a href="#" class="text-title display-2 text-dark">
+                                                        The Sweet Tradition of Brigadeiros on Brazilian Birthdays
+                                                    </a>
+                                                    <p class="secondary-title text-secondary display-3">
+                                                        <span>
+                                                            <i class="far fa-clock text-primary"></i>
+                                                             Clock Wed 02, 2023
+                                                        </span>
+                                                    </p>                                                    
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                       <!-- post-items -->
+                                       <div class="post-item py-1">
+                                        <article class="article">
+                                            <div class="d-flex">
+                                                <a href="#">
+                                                    <img src="./assets/Delivery-1.jpg" class="rounded px-1" alt="">
+                                                </a>
+                                                <div class="cart-body">
+                                                    <div class="trending-category">
+                                                        <a href="#" class="link text-primary">
+                                                            Food
+                                                        </a>
+                                                    </div>
+                                                    <a href="#" class="text-title display-2 text-dark">
+                                                         Efficient Delivery Services in the Bustling City of La Plata"
+                                                    </a>
+                                                    <p class="secondary-title text-secondary display-3">
+                                                        <span>
+                                                            <i class="far fa-clock text-primary"></i>
+                                                             Clock Wed 02, 2023
+                                                        </span>
+                                                    </p>                                                    
+                                                </div>
+                                            </div>
+                                        </article>
+                                        </div>
+
+                                           <!-- post-items -->
+                                    <div class="post-item py-1">
+                                        <article class="article">
+                                            <div class="d-flex">
+                                                <a href="#">
+                                                    <img src="./assets/img-rest.jpg" class="rounded px-1" alt="">
+                                                </a>
+                                                <div class="cart-body">
+                                                    <div class="trending-category">
+                                                        <a href="#" class="link text-primary">
+                                                            Food
+                                                        </a>
+                                                    </div>
+                                                    <a href="#" class="text-title display-2 text-dark">
+                                                        Relaxing and Savoring the Moment: Finding a Cozy Place to Eat and Enjoy
+                                                    </a>
+                                                    <p class="secondary-title text-secondary display-3">
+                                                        <span>
+                                                            <i class="far fa-clock text-primary"></i>
+                                                             Clock Wed 02, 2023
+                                                        </span>
+                                                    </p>                                                    
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                       <!-- post-items -->
+                                       <div class="post-item py-1">
+                                        <article class="article">
+                                            <div class="d-flex">
+                                                <a href="#">
+                                                    <img src="./assets/img-veg.jpg" class="rounded px-1" alt="">
+                                                </a>
+                                                <div class="cart-body">
+                                                    <div class="trending-category">
+                                                        <a href="#" class="link text-primary">
+                                                            Food
+                                                        </a>
+                                                    </div>
+                                                    <a href="#" class="text-title display-2 text-dark">
+                                                        Exploring the Delicious World of our Vegan Restaurant
+                                                    </a>
+                                                    <p class="secondary-title text-secondary display-3">
+                                                        <span>
+                                                            <i class="far fa-clock text-primary"></i>
+                                                             Clock Wed 02, 2023
+                                                        </span>
+                                                    </p>                                                    
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                </section>
+
+                            </aside>
+                        </div>
+                    </div>
+
+
+                </section>
+            <!-- .Post Content -->
+
+            <!-- Swiper slider -->
+            <section class="slider">
+                <div class="container">
+
+                    <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./assets/img14.1.jpeg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                 <!-- Slides -->
+                                  <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./assets/img1.2.jpeg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                 <!-- Slides -->
+                                  <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./assets/img-v.jpeg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                    <!-- Slides -->
+                                         <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./assets/img-z.jpeg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/img-bolo.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <a href="#">
+                                                <img src="./assets/img-y.jpeg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <a href="#">
+                                                    <img src="./assets/img-z.jpeg" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                                <!-- Slides -->
+
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+         <!-- .Swiper slider -->
+
+   </main>
+<!-- .Main Site -->
+
+<!-- footer -->
+   <footer id="footer">
+       <div class="container">
+           <div class="row mb-3">
+               <div class="col-3">
+                   <h2 class="footer-title secondary-title">About Us</h2>
+
+                   <div class="secondary-title text-secondary">
+                        <p class="mt-2 ">
+                         Yosí is located in the heart of La Plata and offers a cozy atmosphere where customers can enjoy a variety of Brazilian dishes. 
+                         The menu includes traditional Brazilian appetizers, entrees, and desserts.
+                        </p>
+                        
+                        <address>
+                            <i class="fas fa-map-marker-alt text-primary"></i> 
+                            Calle 8, 526. La Plata, Buenos Aires. AR
+                        </address>
+
+                        <div class="phone">
+                            <i class="fas fa-mobile text-primary"></i> 
+                            +54 9 11 6914-7112
+                        </div>
+
+                        <div class="email">
+                            <i class="fas fa-envelope text-primary"></i> 
+                            Chefemcasa@gmail.com
+                        </div>
+
+                   </div>
+               </div>
+               <div class="col-3">
+                   <h2 class="footer-title secondary-title">Feature Post</h2>
+
+                   <div class="feature-post">
+                       <div class="flex-item">
+                           <article class="article">
+                               <div class="d-flex">
+                                   <a href="#">
+                                       <img src="./assets/img1.2.jpeg" class="object-fit px-1" alt="">
+                                       <div class="px-1">
+                                           <a href="#" class="text-title display-2 text-dark">
+                                            The Personal Chef, work closely with the clients to design menus tailored to their tastes, dietary
+                                            restrictions, and any other preferences they may have.
+                                           </a>
+                                           <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
+                                           </p>
+                                       </div>
+                                   </a>
+                               </div>
+                           </article>
+                       </div>
+                       <div class="flex-item">
+                        <article class="article">
+                            <div class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/img8(1).jpeg" class="object-fit px-1" alt="">
+                                    <div class="px-1">
+                                        <a href="#" class="text-title display-2 text-dark">
+                                            The chef offers classes for kids, how to prepare a variety of dishes, providing a fun and
+                                            educational experience.
+                                        </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                             <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                         </div>
+                         <div class="flex-item">
+                            <article class="article">
+                                <div class="d-flex">
+                                    <a href="#">
+                                        <img src="./assets/img10.jpg" class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="#" class="text-title display-2 text-dark">
+                                                Garlic Bread: The perfect complement to your Brazilian BBQ!!
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                   </div>
+               </div>
+               <div class="col-3">
+                    <h2 class="footer-title secondary-title">Tags</h2>
+
+                    <div class="tags">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="nav-link btn bg-light">Travel</a>
+                            <a href="#" class="nav-link btn bg-light">Food</a>
+                            <a href="#" class="nav-link btn bg-light">Lifestyle</a>
+                            <a href="#" class="nav-link btn bg-light">Techonogy</a>
+                            <a href="#" class="nav-link btn bg-light">Fashion</a>
+                        </div>
+                    </div>
+
+                    <h2 class="footer-title secondary-title mt-2">Social</h2>
+
+                    <div class="tags social">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+
+               </div>
+           </div>
+
+           <!-- copyrights  -->
+           <div class="copyrights">
+               <p class="text-center text-secondary display-2">
+                    © 2023 <a href="#" class="text-primary">Dailytuition</a> - Personal Blog Theme. All rights reserved.
+               </p>
+           </div>
+       </div>
+   </footer>
+<!-- .footer -->
+
+
+<!-- masonry libray for horizontal grid -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+<!-- swiper slider cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+<!-- custom javascript main.js file -->
+<script src="main.js"></script>
+</body>
+</html>
